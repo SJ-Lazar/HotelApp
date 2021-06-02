@@ -66,6 +66,9 @@
     <Build Include="dbo\Tables\Guests.sql" />
     <Build Include="dbo\Tables\Bookings.sql" />
     <Build Include="dbo\StoredProcedures\spRoomTypes_GetAvailableTypes.sql" />
+    <Build Include="dbo\StoredProcedures\spGuests_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spRooms_GetAvailableRooms.sql" />
+    <Build Include="dbo\StoredProcedures\spBookings_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="dbo\Scripts\Script.PostDeployment.sql" />
